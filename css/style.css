@@ -1,0 +1,77 @@
+/* Banner image*/
+.header {
+  width: 100%; height: 90%
+  background-size: cover;
+  }
+
+.header img {
+  width: 100%; 
+}
+
+/* global styling*/
+html{
+  font-family: "Papyrus", fantasy;
+  margin: 0rem 2rem;
+}
+
+/* Styling for the image container and the items inside it */
+.container{
+  display: flex; 
+  flex-wrap: wrap; 
+}
+
+/*Items for all the screenshots and pictures of your stuff*/
+.item{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 30%;
+  min-width: 8rem;
+  margin: auto;
+}
+ .item-info{
+   padding: 0.1rem;
+   text-align: center;
+ }
+
+.item img{
+  width: 100%;
+}
+
+/*the navbar styling goes here*/
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #3d6d3b;
+  top: 0;
+  width: 100%;
+}
+
+nav ul li{
+  float: left;
+  font-size: 1rem;
+}
+
+nav li a{
+  display: block;
+  color:  #D58FE8;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li:hover{
+  background-color: #527F3E;
+}
+
+nav #active{
+  background-color: #7D4D8A;
+}
+
+h1 {
+color: #098112;
+font-family: "Gothic", Verdana, Geneva, Tahoma, sans-serif;
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+}
